@@ -18,11 +18,10 @@ export class AppComponent {
       userService.save(user);
 
       let returnUrl = localStorage.getItem('returnUrl');
-      if(returnUrl) {
-        localStorage.removeItem('returnUrl');
-        router.navigateByUrl(returnUrl);
-      }
-    
+      if(!returnUrl) return;
+
+      localStorage.removeItem('returnUrl');
+      router.navigateByUrl(returnUrl);
     })
   }
 }
