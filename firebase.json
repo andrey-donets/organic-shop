@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "oshop",
+    "public": "dep",
     "ignore": [
       "firebase.json",
       "**/.*",
