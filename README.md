@@ -4,4 +4,4 @@ This project demonstrates a simple e-commerce application for an imaginary organ
 
 http://programmingwithmosh.com/courses/complete-angular-master-class/
 
-URL to the project:  https://oshop-2588d.firebaseapp.com/
+Link to the Organic Shop application :  https://oshop-2588d.firebaseapp.com/
